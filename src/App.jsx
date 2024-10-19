@@ -15,17 +15,18 @@ function App() {
       <div className="App">
         <Header />
 
-        <div className='hero-available'>
-          <img src={Memoji} className="App-logo" alt="logo" />
-          <p>Edit <code>src/App.js</code> and save to reload.</p>
-          <div style={{
+        <div style={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            flexDirection: 'row',
+            flexDirection: 'column',
             height: '100%',
             maxHeight: '100%',
+
           }}>
+          <img src={Memoji} className="App-logo" alt="logo" />
+          <p>Edit <code>src/App.js</code> and save to reload.</p>
+          <div >
             <i className="pulse green" style={{ marginRight: '15px' }}></i>
             <a
               className="App-link"
