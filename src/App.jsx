@@ -10,7 +10,8 @@ function App() {
     <div style={{
       background: '#000000',
       height: '100vh',               // Full height of the viewport
-      overflow: 'hidden',            // Disable scrolling
+      overflow: 'hidden', 
+      alignItems: 'center',           // Disable scrolling
     }}>
       <div className="App">
         <Header />
@@ -22,6 +23,7 @@ function App() {
             flexDirection: 'column',
             height: '100%',
             maxHeight: '100%',
+            paddingTop: 'auto',
 
           }}>
           <img src={Memoji} className="App-logo" alt="logo" />
