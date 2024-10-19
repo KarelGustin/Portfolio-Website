@@ -29,6 +29,7 @@ function App() {
             paddingTop: 'auto',
 
           }}>
+          <button className="App-button">Projects</button>
           <img src={Memoji} className="App-logo" alt="logo" />
           <p>Edit <code>src/App.js</code> and save to reload.</p>
           <div >

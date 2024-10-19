@@ -34,6 +34,33 @@
   color: white;
 }
 
+.App-button {
+  width: 140px;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: solid 1px #FEED18;
+  background-color: transparent;
+  color: #FEED18;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease, box-shadow 0.4s ease; /* Transition for text color and glow */
+  background: linear-gradient(90deg, #FEED18 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  box-shadow: 0 0 5px rgba(254, 237, 24, 0.3); /* Soft glow */
+}
+
+.App-button:hover {
+  background-position: 0 0;
+  color: #000000;
+  transition: background-position 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 15px rgba(254, 237, 24, 0.7); /* Stronger glow on hover */
+}
+
+
+
 .App-link {
   color: #fff;
   text-decoration: none;
