@@ -3,6 +3,7 @@ import Memoji from './images/memoji.png';
 import './App.css';
 import FixedBottom from './components/Fixed-bottom';
 import { FaLocationDot } from "react-icons/fa6";
+import Header from './components/Header';
 
 function App() {
   return (
@@ -12,51 +13,7 @@ function App() {
       overflow: 'hidden',            // Disable scrolling
     }}>
       <div className="App">
-        <header style={{
-          background: 'transparent !important',
-          padding: '10px',
-          textAlign: 'left',
-          display: 'flex',
-          flexDirection: 'row',
-          color: '#FEED18',
-          width: '100%',
-          justifyContent: 'space-between',
-        }}>
-          <div>
-            <h1 style={{
-              textAlign: 'left',
-              marginBottom: '0px',
-              fontSize: '1rem',
-            }}>Karel Gustin</h1>
-            <div style={{
-              display: 'flex',
-              flexDirection: 'row',
-            }}>
-              <p style={{
-                textAlign: 'left',
-                margin: '0px',
-                fontSize: '0.75rem',
-              }}>I build cool things online</p>
-            </div>
-          </div>
-          <div>
-            <p style={{
-              margin: '0px',
-              fontSize: '0.75rem',
-              marginRight: '20px',
-            }}>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>MongoDB</li>
-                <li>Express</li>
-                <li>Node</li>
-              </ul>
-            </p>
-          </div>
-        </header>
+        <Header />
 
         <div className='hero-available'>
           <img src={Memoji} className="App-logo" alt="logo" />
