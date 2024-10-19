@@ -61,6 +61,7 @@ function App() {
             justifyContent: 'center',
             alignItems: 'center',
             flexDirection: 'row',
+            height: '100%',
           }}>
             <i className="pulse green" style={{ marginRight: '15px' }}></i>
             <a
