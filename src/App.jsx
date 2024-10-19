@@ -9,9 +9,10 @@ function App() {
   return (
     <div style={{
       background: '#000000',
-      height: '100vh',               // Full height of the viewport
+      height: '100vh',               
       overflow: 'hidden', 
-      alignItems: 'center',           // Disable scrolling
+      alignItems: 'center',           
+      maxHeight: '100%',
     }}>
       <div className="App">
         <Header />
