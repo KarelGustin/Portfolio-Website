@@ -18,7 +18,7 @@ export default function Header() {
 
       }}>Karel Gustin</h3>
       <p style={{
-        textAlign: 'left',
+        textAlign: 'right',
         marginLeft: '0px',
         marginTop: '0', 
 

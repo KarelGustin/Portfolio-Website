@@ -1,3 +1,5 @@
+import { FaLocationDot } from "react-icons/fa6";
+
 export default function FixedBottom() {
     return (
         <footer style={{
@@ -20,16 +22,22 @@ export default function FixedBottom() {
                     fontSize: '0.75rem',
                     color: 'white',
                 }}>
-                    Located in the Netherlands
+                    Located in the Netherlands 
+                    <FaLocationDot 
+                    style={{fontSize: '1rem',
+                    color: '#FEED18',
+
+                    }} />
                 </p>
             </div>
             <div>
                 <p style={{
                     textAlign: 'left',
-                    marginLeft: '0px',
+                    marginLeft: '20px',
                     marginTop: '0', 
                     fontSize: '0.75rem',
-                    color: 'white',
+                    color: '#FEED18',
+                    marginRight: '20px',
                 }}>
                     <a style={{
                         color: 'white',
@@ -42,7 +50,7 @@ export default function FixedBottom() {
                     marginLeft: '0px',
                     marginTop: '0', 
                     fontSize: '0.75rem',
-                    color: 'white',
+                    color: '#FEED18',
                 }}>
                     <a style={{
                         color: 'white',

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Memoji from './images/memoji.png';
 import './App.css';
 import FixedBottom from './components/Fixed-bottom';
+import { FaLocationDot } from "react-icons/fa6";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           textAlign: 'left',
           display: 'flex',
           flexDirection: 'row',
-          color: 'white',
+          color: '#FEED18',
           width: '100%',
           justifyContent: 'space-between',
         }}>
@@ -42,12 +43,16 @@ function App() {
             <p style={{
               margin: '0px',
               fontSize: '0.75rem',
+              marginRight: '20px',
             }}>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>Node</li>
               </ul>
             </p>
           </div>
@@ -62,6 +67,7 @@ function App() {
             alignItems: 'center',
             flexDirection: 'row',
             height: '100%',
+            maxHeight: '100%',
           }}>
             <i className="pulse green" style={{ marginRight: '15px' }}></i>
             <a
