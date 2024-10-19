@@ -8,11 +8,13 @@ import Header from './components/Header';
 function App() {
   return (
     <div style={{
-      background: '#000000',
-      height: '100vh',               
-      overflow: 'hidden', 
+      background: '#000000',            
+      overflowY: 'hidden !important', 
+      overflowX: 'hidden !important',
       alignItems: 'center',           
       maxHeight: '100%',
+      position: 'fixed',
+      width: '100%',
     }}>
       <div className="App">
         <Header />
