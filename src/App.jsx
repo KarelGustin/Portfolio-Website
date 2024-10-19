@@ -29,20 +29,24 @@ function App() {
             paddingTop: 'auto',
 
           }}>
-          <button className="App-button">Projects</button>
-          <img src={Memoji} className="App-logo" alt="logo" />
-          <p>Edit <code>src/App.js</code> and save to reload.</p>
-          <div >
+          <div style={{
+            marginBottom: '20px',
+          }}>
             <i className="pulse green" style={{ marginRight: '15px' }}></i>
             <a
               className="App-link"
               href="mailto:karelgustin@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
+              
             >
               Available for hire
             </a>
           </div>
+          <img src={Memoji} className="App-logo" alt="logo" />
+          <p>Edit <code>src/App.js</code> and save to reload.</p>
+          
+          <button className="App-button">Projects</button>
         </div>
       </div>
       <FixedBottom />
