@@ -46,7 +46,7 @@ function App() {
           <img src={Memoji} className="App-logo" alt="logo" />
           <p>Edit <code>src/App.js</code> and save to reload.</p>
           
-          <button className="App-button">Projects</button>
+          <button className="App-button">My projects</button>
         </div>
       </div>
       <FixedBottom />
